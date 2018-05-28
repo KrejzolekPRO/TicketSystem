@@ -15,12 +15,12 @@ public class Main {
     private static MessageUtil messageUtil = MessageUtil.getInstance();
     //private static TicketGUI ticketGUI = TicketGUI.getInstance();
     private static PriceUtil priceUtil = PriceUtil.getInstance();
-    private static FileManager fileManager = FileManager.getInstance();
+    //private static FileManager fileManager = FileManager.getInstance();
 
     public static void main(String[] args) {
         //ticketGUI.showMainGUI();
-        fileManager.load();
-	    Scanner scanner = new Scanner(System.in);
+        //fileManager.load();
+	Scanner scanner = new Scanner(System.in);
         messageUtil.send(" ----------- [Glowne komendy] ----------- ", false);
         messageUtil.send("  > dodaj - tworzy nowy bilet.", true);
         messageUtil.send("  > lista - wyswietla wszystkie bilety.", true);
